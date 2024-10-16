@@ -1,0 +1,188 @@
+{
+    "gitlens.advanced.messages": {
+      "suppressLineUncommittedWarning": true,
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "angular",
+    "material-icon-theme.folders.theme": "specific",
+    "material-icon-theme.folders.color": "#90a4ae",
+    "material-icon-theme.hidesExplorerArrows": false,
+    "material-icon-theme.opacity": 1,
+    "material-icon-theme.files.associations": {},
+    "material-icon-theme.folders.associations": {},
+    "material-icon-theme.languages.associations": {},
+    "editor.quickSuggestions": {
+      //开启自动显示建议
+      "other": true,
+      "comments": true,
+      "strings": true
+    }, // 每次保存的时候将代码按eslint格式进行修复
+    "prettier.singleQuote": true, //使用带引号替代双引号
+    "prettier.printWidth": 180,
+    "prettier.useTabs":true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //让函数(名)和后面的括号之间加个空格
+    "vetur.format.defaultFormatter.js": "vscode-typescript",
+    "vetur.format.defaultFormatter.html": "js-beautify-html",
+    "git.autofetch": true,
+    "go.buildOnSave": "workspace",
+    "go.lintOnSave": "package",
+    "go.vetOnSave": "package",
+    "go.buildTags": "",
+    "go.buildFlags": [],
+    "go.lintFlags": [],
+    "go.vetFlags": [],
+    "go.coverOnSave": false,
+    "go.useCodeSnippetsOnFunctionSuggest": false,
+    "go.formatTool": "goreturns",
+    "go.gocodeAutoBuild": false,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "files.associations": {
+      "*.dat": "sql",
+      "*.cjson": "jsonc",
+      "*.wxss": "css",
+      "*.wxs": "javascript",
+      ".env.*": "env"
+    },
+    "workbench.colorTheme": "Community Material Theme Palenight High Contrast",
+    "[json]": {
+      "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+      "psl.stepIn",
+      "psl.stepOut",
+      "psl.stepOver",
+      "psl.sendToHostTerminal"
+    ],
+    "[jsonc]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[yaml]": {
+      "editor.defaultFormatter": "remimarsal.prettier-now"
+    },
+    "VSCodeCounter.showInStatusBar": true,
+    "[html]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "carbon.fontSize": 14,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.markdownlint":true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "docker.images.label": "RepositoryNameAndTag",
+    "docker.images.sortBy": "CreatedTime",
+    "docker.containers.label": "ContainerName",
+    "docker.containers.sortBy": "CreatedTime",
+    "docker.containers.description": [
+      "CreatedTime",
+      "FullTag"
+    ],
+    "docker.images.description": [
+      "CreatedTime",
+      "FullTag",
+      "Repository",
+      "RepositoryName",
+      "RepositoryNameAndTag",
+      "Tag"
+    ],
+    "docker.images.groupBy": "RepositoryName",
+    "docker.defaultRegistryPath": "registry.cn-hongkong.aliyuncs.com",
+    "emmet.includeLanguages": {
+      "wxml": "html"
+    },
+    "minapp-vscode.disableAutoConfig": true,
+    "[wxml]": {
+      "editor.defaultFormatter": "qiu8310.minapp-vscode"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "mervin.markdown-formatter"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "octref.vetur"
+    },
+    "file-size.position": "left",
+    "cSpell.enableFiletypes": [
+      "vue"
+    ],
+    "cSpell.userWords": [
+      "Servicefgasdad"
+    ],
+    "files.eol": "\n",
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe",
+    "terminal.integrated.fontSize": 12,
+    "carbon.fontFamily": "Fira Code",
+    "debug.console.fontSize": 12,
+    "remote.SSH.remotePlatform": {
+      "local_dev": "linux",
+      "wxServer": "linux",
+      "106.75.239.50": "linux",
+      "Oracle": "linux",
+      "Oracle-arm": "linux",
+      "Oracle_1": "linux",
+      "Oracle_centos": "linux",
+      "oracle": "linux"
+    },
+    "prettier.javascriptEnable": [
+      "javascript",
+      "javascriptreact"
+    ],
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "[scss]": {
+      "editor.defaultFormatter": "HookyQR.beautify"
+    },
+  "git.ignoreRebaseWarning": true,
+  // "terminal.integrated.shellArgs.windows": [
+  //   "--login"
+  // ],
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDragAndDrop": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "typescript.disableAutomaticTypeAcquisition": true,
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.profiles.osx": {
+    "/bin/zsh (migrated)": {
+      "path": "/bin/zsh",
+      "args": [
+        "-l"
+      ]
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "bracketPairColorizer.depreciation-notice": false,
+  "[less]": {
+    "editor.defaultFormatter": "HookyQR.beautify"
+  },
+  "editor.fontSize": 14,
+  "dart.flutterRunAdditionalArgs": [
+    "--no-sound-null-safety"
+  ],
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+  "dart.previewFlutterUiGuides": true,
+  "dart.previewFlutterUiGuidesCustomTracking": true,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "workbench.settings.openDefaultSettings": true,
+  }
