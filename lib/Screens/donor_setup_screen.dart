@@ -67,6 +67,11 @@ class _DonorSetupScreenState extends State<DonorSetupScreen> {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('Network error!')),
         );
+      catch (e) {
+        print('Exception: $e');
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Network error!')),
+        );
       }
     }
   }
